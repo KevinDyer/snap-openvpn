@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+services:
+- docker
+cache:
+  directories:
+  - ".encrypted"
+script:
+- "./.travis.sh"
+env:
+  global:
+    secure: Gya+i7WOoHOP3MIjnt+9T5I2KPVgdXdRmSU/gHQil2g1oN+3yZHVCy1QnUxEGMiBL0PLfTYIK3KitkTcDGo9+RV5Qx9jWIcfyqhOv1hb4RUvnDLun684cul7m6CnlGY9SAQedx89/GuH4NgOMla0wjdhftuRexPHcBV/epH1EnkcN9UIl2rYclJYvoRZwixA9g1VOHoZGUB0VNiIQ7pVaB6o36wTtqUzWgN1tN612V/CNjZFLkvQks1WR/SPdFOQFt25aR6tvMUTbmjzNZUqNGhWSxHfJJE9Hw57nLpnbO6ZIWAEUyH/NyIfrgf1S0F5vdSlmN9ERS3UX3Zrp1h1wz7oKMNKJLLKw4BYDz6cCeZv0Nb2T8TM/Y8ScCms8p39wP2djPnKtEGpEdMU0FtiAXabM6xz8FTePz/GYi8ri85lMhhxdBUYfH2zZmCL6AlYsSeubOIjOu/K6N20MYGeVKJ9YcaA37/VxqsaDt8ySwvPtQKZMh35rznvxjuR+oDdBBGWe6RzGwErGWtW8Bn/qQiMAN7l0aGFHGkxVRAPFRE1TX1OU9UkeQvFDtEAZkP1Xk9v5T+X8L9iozppOFecy2KPTeAMOP0FVZnDVi759bzU2QlyPq7f/Iqn0Q57cMvZ7G9AawXIPvrs+Pm12Dc1TrNDk4kz9Nd6p8IMr8iPjak=
